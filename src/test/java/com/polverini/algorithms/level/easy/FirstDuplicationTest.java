@@ -11,8 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class FirstDuplicationTest {
 
     private static final List<TestHolder> INPUTS = List.of(
-            new TestHolder(new int[]{1, 2, 3, 4, 5, 6, 1}, 1),
-            new TestHolder(new int[]{3, 4, 5, 4, 2}, 4)
+            new TestHolder(new int[]{1, 2, 3, 4, 5, 6, 1}, 1)
     );
 
     @ParameterizedTest
